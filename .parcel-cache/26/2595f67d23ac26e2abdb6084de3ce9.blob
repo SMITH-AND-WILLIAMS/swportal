@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+}
+header{
+    perspective:1500;
+    height:100vh;
+    position:relative;
+}
+header:before{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    background: url(fcefa2ce34f059edde76f4f98fd7a783)  no-repeat;
+    background-size: cover;
+    width:100%;
+    height:300vh;
+    transform-origin: top center;
+    transform: rotateX(var(--rot));
+
+}
+.clouds{
+  position:relative;
+  transform-style: preserve-3d;
+}
+.cloud1{
+  background: url(8df0e6fde7ac88abcecfc579faf43964) no-repeat;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  transform-style: preserve-3d;
+ 
+}
+.clouds2{
+  background: url(eb48ba3cdc608d86c7c02068ccda2c81) no-repeat;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:-150px;
+}
+.clouds3{
+  background: url(c4a09e5779fbac87a9144a540f31f183)  no-repeat;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+
+  
+}
+.background {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color:transparent;
+  /* background-image: url(../img/sw-ho-me-full.jpg); */
+  background-size: cover;
+}
+.background:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color:transparent;
+    background-image: url(782963ec91531cbc5781d61a83e9be9b);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: url("#turbulence");   
+  }
+.background:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(958f40a89f9b55ba36dbfdf2d1282580);
+  /* background: red; */
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-mask: url(10fb1b6988e2164762f8e5c31218c3d6);
+  mask: url(10fb1b6988e2164762f8e5c31218c3d6);
+  -webkit-mask-position: var(--x) var(--y);
+  mask-position: var(--x) var(--y);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  backdrop-filter: blur(6010px);
+}
+main div{
+    width:250px;
+    margin:50px;
+}
+main div p{
+    padding:50px 0;
+}

@@ -1,0 +1,131 @@
+:root{
+  --primaryColor:#242021;
+  --primaryColor0:#24202100;
+}
+body {
+  overflow-x: hidden;
+  background:var(--primaryColor);
+}
+header{
+    perspective:1200px; 
+    height:100vh;
+    position:relative;
+    background: url(sw-home-full.HASH_REF_63024d614315067a4200830877d6d2d1.webp) center center no-repeat;
+    background-size: cover;
+}
+header:before{
+  content:'';
+  display:block;
+  width:100%;
+  height:100%;
+  background: url(sw-lighthouse.HASH_REF_b23708723c7467044d7f49796cb54d26.webp) center center no-repeat;
+  background-size: cover;
+  position:absolute;
+  z-index:1;
+}
+.sea:after{
+  content:'';
+  display:block;
+  width:100%;
+  height:80vh;
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  background:linear-gradient(var(--primaryColor0),var(--primaryColor));
+}
+.sea{
+  content: "";
+  display: block;
+  position: absolute;
+  background-color:transparent;
+  background: url(sw-sea.HASH_REF_5b6c2ff3722e3535bbe00e1ecc3d4492.webp) center center no-repeat;
+  background-size:cover;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  filter: url("#turbulence");   
+
+}
+/* 
+.cloud1{
+  background: url(../img/clouds1.png) no-repeat;
+
+  background-size: contain;
+  height:100%;
+  width:100%;  
+  position:absolute;  
+
+
+ 
+}
+.cloud2{
+  background: url(../img/clouds2.png) no-repeat;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:-150px;
+}
+.cloud3{
+  background: url(../img/clouds3.png)  no-repeat;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+
+  
+}
+.background {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color:transparent;
+  background-image: url(../img/sw-home-full.jpg); 
+  background-size: cover;
+}
+.background:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color:transparent;
+    background: url(../img/sw-home-map.png) center top;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: url("#turbulence");   
+  }
+.background:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/sw-home-full.jpg);
+   background: red; 
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-mask: url(../img/noise.png);
+  mask: url(../img/noise.png);
+  -webkit-mask-position: var(--x) var(--y);
+  mask-position: var(--x) var(--y);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  backdrop-filter: blur(6010px);
+} */
+main div{
+    width:250px;
+    margin:50px;
+}
+main div p{
+    padding:50px 0;
+}
+
+/*# sourceMappingURL=index.HASH_REF_d41ac7b8bb091472d0199314d10797b7.css.map */

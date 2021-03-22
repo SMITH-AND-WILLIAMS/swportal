@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smith And Williams</title>
+    <link rel="stylesheet" href="d927af56d5764469c405920fe9a7d014">
+    <link rel="stylesheet" href="f17fa01a87529b177746f37b61ce65b8">
+  </head>
+  <body>
+      <header>
+        <div class="clouds">
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+        <div class="cloud3"></div>
+      </div>
+    <div class="background">
+     
+        <div class="water"></div>
+      </div>
+      
+      <svg>
+        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter" numoctaves="3" seed="2" basefrequency="0.002 0.005"></feTurbulence>
+          <feDisplacementMap scale="10" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter" attributename="baseFrequency" dur="300s" keytimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatcount="indefinite"></animate>
+        <filter id="turbulence2" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter2" numoctaves="3" seed="2" basefrequency="0.002 0.005"></feTurbulence>
+          <feDisplacementMap scale="10" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter2" attributename="baseFrequency" dur="30s" keytimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatcount="indefinite"></animate>
+        </filter>      
+      </filter></svg>
+    </header>
+    <main>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+        </div>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos officiis tempora repudiandae reprehenderit quaerat dignissimos sint veritatis necessitatibus?</p>
+        </div>
+    </main> 
+  <script src="06dfe9f8db92a79f21cf80f953a0a070"></script>
+  </body>
+</html>

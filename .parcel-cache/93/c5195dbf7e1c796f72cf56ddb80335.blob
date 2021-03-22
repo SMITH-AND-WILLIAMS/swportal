@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smith And Williams</title>
+    <link rel="stylesheet" href="/index.HASH_REF_72859acdd6f2bf337eb28e43c5172643.css">
+    <link rel="stylesheet" href="/index.HASH_REF_d41ac7b8bb091472d0199314d10797b7.css">
+  </head>
+  <body>
+    <header>
+      <div class="cloud1"></div>
+      <div class="cloud2"></div>
+      <div class="cloud3"></div>
+      <div class="background">
+        <div class="water"></div>
+      </div>
+
+      <!-- <svg>
+        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
+          <feDisplacementMap scale="10" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="300s" 
+          keyTimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatCount="indefinite"/>
+        <filter id="turbulence2" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter2" numOctaves="3" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
+          <feDisplacementMap scale="10" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter2" attributeName="baseFrequency" dur="30s" 
+          keyTimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatCount="indefinite"/>
+        </filter>      
+      </svg> -->
+    </header>
+    <main>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum
+          totam quibusdam eveniet a, sapiente numquam cum maxime non atque quos
+          officiis tempora repudiandae reprehenderit quaerat dignissimos sint
+          veritatis necessitatibus?
+        </p>
+      </div>
+    </main>
+    <script src="/index.HASH_REF_062e9a7565ca912a5f7d6b832142d36c.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "swportal",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/SMITH-AND-WILLIAMS/swportal.git",
+  "author": "Weblicious <stephane@weblicious.eu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn parcel 'src/index.html'"
+  },
+  "volta": {
+    "node": "14.16.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.2.8"
+  },
+  "dependencies": {
+    "gsap": "npm:@gsap/shockingly@^3.6.0"
+  }
+}

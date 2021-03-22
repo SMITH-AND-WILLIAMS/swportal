@@ -1,1 +1,2 @@
 # swportal
+yarn start
