@@ -74,7 +74,7 @@ header .baseline {
 .welcome {
   box-sizing: border-box;
   padding-left: 60%;
-  margin-top: 7vh;
+  margin-top: 12vh;
   z-index: 3;
   transition:all .3s ease-in-out;
   position:relative;
@@ -104,6 +104,26 @@ header h1:before{
   background: var(--textColor);
   top:30px;
   left:-85px;
+}
+.btn{
+  background:var(--textColor);
+  padding:10px 35px;
+  display:inline-block;
+  margin:25px 0;
+  text-decoration: none;
+  font-size:25px;
+  text-align: center;
+  border-radius:4px;
+  color:var(--primaryColor);
+}
+.btn em{
+  display:block;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:600;
+  opacity:.5;
+
 }
 @media (max-height: 768px) {
   h3.logo {
@@ -171,6 +191,7 @@ header h1:before{
     background: rgba(31, 23, 14, 0.53);
     width:100%;
     height:100%;
+    z-index: -1;
   filter: blur(50px);
   }
 }
