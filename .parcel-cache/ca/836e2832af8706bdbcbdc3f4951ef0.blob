@@ -1,0 +1,49 @@
+var _gsap = require("gsap");
+var _gsapScrollTrigger = require("gsap/ScrollTrigger");
+/*--*/
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+/*---*/
+window.addEventListener("DOMContentLoaded", e => {
+  _gsap.gsap.registerPlugin(_gsapScrollTrigger.ScrollTrigger);
+  const header = $(`header`);
+  const noise = document.createElement(`div`);
+  const turbulences = document.createElementNS(`http://www.w3.org/2000/svg`, `svg`);
+  const sea = document.createElement(`div`);
+  const lh = document.createElement(`div`);
+  const lhReflect = document.createElement(`div`);
+  turbulences.innerHTML = `
+    <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+      <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
+      <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
+      <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="300s" 
+      keyTimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatCount="indefinite"/>    
+    </filter>`;
+  sea.classList.add(`sea`);
+  lh.classList.add(`lh`);
+  lhReflect.classList.add(`lightHouseReflection`);
+  lh.append(lhReflect);
+  header.append(sea, lh, turbulences);
+  _gsap.gsap.registerPlugin(_gsapScrollTrigger.ScrollTrigger);
+  _gsap.gsap.from(".logo", {
+    scrollTrigger: {
+      trigger: "header",
+      markers: false,
+      toggleActions: "play none none none"
+    },
+    y: -1600,
+    duration: 0.8
+  });
+  _gsap.gsap.from(".baseline", {
+    scrollTrigger: {
+      trigger: "header",
+      toggleActions: "play none none none",
+      markers: false,
+      start: "top 110%",
+      end: "bottom 110%"
+    },
+    opacity: -100,
+    y: 300,
+    duration: 0.8
+  });
+});

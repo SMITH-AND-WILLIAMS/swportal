@@ -1,23 +1,23 @@
 19815
 31/home/unixor/swportal/yarn.lock1616144572994165700 0
-37/home/unixor/swportal/dist/index.html1616334673714129000 0
-45/home/unixor/swportal/dist/index.c5172643.css1616334673714129000 0
-45/home/unixor/swportal/dist/index.d10797b7.css1616334673714129000 0
-49/home/unixor/swportal/dist/index.c5172643.css.map1616334673724129000 0
-44/home/unixor/swportal/dist/index.2142d36c.js1616334673724129000 0
-47/home/unixor/swportal/dist/sw-sea.cc3d4492.webp1616334673724129000 0
+37/home/unixor/swportal/dist/index.html1616353260394129000 0
+45/home/unixor/swportal/dist/index.c5172643.css1616353260394129000 0
+45/home/unixor/swportal/dist/index.d10797b7.css1616353260394129000 0
+49/home/unixor/swportal/dist/index.c5172643.css.map1616353260394129000 0
+44/home/unixor/swportal/dist/index.2142d36c.js1616353260394129000 0
+47/home/unixor/swportal/dist/sw-sea.cc3d4492.webp1616353260384129000 0
 47/home/unixor/swportal/dist/clouds3.17214341.png1616328896804129000 0
 51/home/unixor/swportal/dist/sw-home-map.afca1a43.png1616328896824129000 0
-56/home/unixor/swportal/dist/sw-lighthouse-r.d36ee918.webp1616334673714129000 0
-48/home/unixor/swportal/dist/index.2142d36c.js.map1616334673734129000 0
+56/home/unixor/swportal/dist/sw-lighthouse-r.d36ee918.webp1616353260384129000 0
+48/home/unixor/swportal/dist/index.2142d36c.js.map1616353260394129000 0
 45/home/unixor/swportal/dist/noise.b0fc02c5.png1616328896784129000 0
-48/home/unixor/swportal/dist/baseline.0389237a.svg1616334673754129000 0
+48/home/unixor/swportal/dist/baseline.0389237a.svg1616353260384129000 0
 47/home/unixor/swportal/dist/clouds1.722ff76b.png1616328896784129000 0
 48/home/unixor/swportal/src/img/sw-lighthouse.webp1616332209000000000 0
 46/home/unixor/swportal/src/img/sw-home-full.jpg1616057649704165700 0
 47/home/unixor/swportal/src/img/sw-home-full.webp1616329858000000000 0
-36/home/unixor/swportal/src/index.html1616334343844129000 0
-39/home/unixor/swportal/src/css/style.css1616334673614129000 0
+36/home/unixor/swportal/src/index.html1616334740404129000 0
+39/home/unixor/swportal/src/css/style.css1616335675764129000 0
 25/home/unixor/swportal/src1616328834854129000 1
 39/home/unixor/swportal/package-lock.json1616144250044165700 0
 56/home/unixor/swportal/node_modules/resolve-from/index.js1606400252498000000 0
@@ -1172,7 +1172,7 @@
 58/home/unixor/swportal/node_modules/hmac-drbg/test/fixtures1616144571404165700 1
 49/home/unixor/swportal/node_modules/hmac-drbg/test1616144570244165700 1
 54/home/unixor/swportal/node_modules/hmac-drbg/README.md1587973139000000000 0
-49/home/unixor/swportal/dist/index.d10797b7.css.map1616334673724129000 0
+49/home/unixor/swportal/dist/index.d10797b7.css.map1616353260394129000 0
 57/home/unixor/swportal/node_modules/hmac-drbg/package.json1587973139000000000 0
 44/home/unixor/swportal/node_modules/hmac-drbg1616144568644165700 1
 65/home/unixor/swportal/node_modules/postcss-normalize-charset/dist1616144570574165700 1
@@ -1319,7 +1319,7 @@
 66/home/unixor/swportal/node_modules/caniuse-lite/data/regions/LI.js1616143515071000000 0
 76/home/unixor/swportal/node_modules/core-js/stable/string/virtual/fontsize.js1616143515682000000 0
 66/home/unixor/swportal/node_modules/caniuse-lite/data/regions/VC.js1616143515071000000 0
-44/home/unixor/swportal/dist/logo.4b865dfd.svg1616334673714129000 0
+44/home/unixor/swportal/dist/logo.4b865dfd.svg1616353260384129000 0
 66/home/unixor/swportal/node_modules/caniuse-lite/data/regions/DE.js1616143515071000000 0
 66/home/unixor/swportal/node_modules/caniuse-lite/data/regions/LV.js1616143515071000000 0
 66/home/unixor/swportal/node_modules/caniuse-lite/data/regions/MZ.js1616143515071000000 0
@@ -7222,7 +7222,7 @@
 86/home/unixor/swportal/node_modules/cssstyle/scripts/generate_implemented_properties.js1587973134000000000 0
 63/home/unixor/swportal/node_modules/@parcel/logger/lib/Logger.js1616143513417000000 0
 77/home/unixor/swportal/node_modules/@parcel/config-default/test/config.test.js1616143514119000000 0
-42/home/unixor/swportal/src/img/baseline.svg1616334202000000000 0
+42/home/unixor/swportal/src/img/baseline.svg1616334688000000000 0
 59/home/unixor/swportal/node_modules/@babel/runtime/README.md1616143517619000000 0
 95/home/unixor/swportal/node_modules/postcss-modules/node_modules/postcss-modules-extract-imports1616144569164165700 1
 57/home/unixor/swportal/node_modules/@babel/runtime/LICENSE1616143517619000000 0
@@ -8298,7 +8298,7 @@
 68/home/unixor/swportal/node_modules/highlight.js/lib/languages/coq.js1616143514205000000 0
 93/home/unixor/swportal/node_modules/jsdom/lib/jsdom/browser/resources/no-op-resource-loader.js1606400252172000000 0
 43/home/unixor/swportal/node_modules/purgecss1616144569354165700 1
-53/home/unixor/swportal/dist/sw-home-full.77d6d2d1.webp1616334673724129000 0
+53/home/unixor/swportal/dist/sw-home-full.77d6d2d1.webp1616353260384129000 0
 76/home/unixor/swportal/node_modules/@parcel/reporter-dev-server/lib/templates1616144570944165700 1
 95/home/unixor/swportal/node_modules/postcss-modules/node_modules/postcss/lib/css-syntax-error.js1608132029481000000 0
 72/home/unixor/swportal/node_modules/postcss-svgo/node_modules/ansi-styles1616144569264165700 1
@@ -16297,7 +16297,7 @@
 54/home/unixor/swportal/node_modules/cli-cursor/index.js1587973131000000000 0
 96/home/unixor/swportal/node_modules/postcss-normalize-string/node_modules/postcss/lib/tokenize.js1608132029481000000 0
 99/home/unixor/swportal/node_modules/postcss-normalize-string/node_modules/postcss/lib/declaration.js1608132029481000000 0
-54/home/unixor/swportal/dist/sw-lighthouse.6cb54d26.webp1616334673714129000 0
+54/home/unixor/swportal/dist/sw-lighthouse.6cb54d26.webp1616353260384129000 0
 79/home/unixor/swportal/node_modules/@babel/core/lib/config/validation/options.js1616143515215000000 0
 92/home/unixor/swportal/node_modules/postcss-normalize-string/node_modules/postcss/lib/root.js1608132029481000000 0
 84/home/unixor/swportal/node_modules/regenerate-unicode-properties/Script/Mongolian.js1587973130000000000 0
@@ -16693,7 +16693,7 @@
 64/home/unixor/swportal/node_modules/es-abstract/2015/IsInteger.js1616143517338000000 0
 71/home/unixor/swportal/node_modules/es-abstract/2015/IsDataDescriptor.js1616143517338000000 0
 67/home/unixor/swportal/node_modules/es-abstract/2015/ToUint8Clamp.js1616143517338000000 0
-26/home/unixor/swportal/dist1616334673754129000 1
+26/home/unixor/swportal/dist1616353260394129000 1
 80/home/unixor/swportal/node_modules/es-abstract/2015/CreateDataPropertyOrThrow.js1616143517338000000 0
 103/home/unixor/swportal/node_modules/postcss-svgo/node_modules/chalk/node_modules/supports-color/index.js1587973126000000000 0
 67/home/unixor/swportal/node_modules/es-abstract/2015/RegExpCreate.js1616143517338000000 0
@@ -17577,7 +17577,7 @@
 65/home/unixor/swportal/node_modules/@babel/types/lib/builders/flow1616144571534165700 1
 105/home/unixor/swportal/node_modules/postcss-modules-local-by-default/node_modules/postcss/lib/container.js1587973125000000000 0
 66/home/unixor/swportal/node_modules/string.prototype.trimstart/test1616144570774165700 1
-37/home/unixor/swportal/src/js/index.js1616333034994129000 0
+37/home/unixor/swportal/src/js/index.js1616353260314129000 0
 105/home/unixor/swportal/node_modules/postcss-modules-local-by-default/node_modules/postcss/lib/postcss.d.ts1587973125000000000 0
 100/home/unixor/swportal/node_modules/postcss-modules-local-by-default/node_modules/postcss/lib/node.js1587973125000000000 0
 101/home/unixor/swportal/node_modules/postcss-modules-local-by-default/node_modules/postcss/lib/input.js1587973125000000000 0

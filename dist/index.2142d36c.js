@@ -450,11 +450,11 @@ const $$ = document.querySelectorAll.bind(document);
 /*---*/
 window.addEventListener("DOMContentLoaded", e => {
   _gsap.gsap.registerPlugin(_gsapScrollTrigger.ScrollTrigger);
-  const bg = $(`.background`);
   const header = $(`header`);
   const noise = document.createElement(`div`);
   const turbulences = document.createElementNS(`http://www.w3.org/2000/svg`, `svg`);
   const sea = document.createElement(`div`);
+  const lh = document.createElement(`div`);
   const lhReflect = document.createElement(`div`);
   turbulences.innerHTML = `
     <filter id="turbulence" x="0" y="0" width="100%" height="100%">
@@ -464,8 +464,11 @@ window.addEventListener("DOMContentLoaded", e => {
       keyTimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatCount="indefinite"/>    
     </filter>`;
   sea.classList.add(`sea`);
+  lh.classList.add(`lh`);
   lhReflect.classList.add(`lightHouseReflection`);
-  header.append(sea, lhReflect, turbulences);
+  lh.append(lhReflect);
+  header.append(sea, lh, turbulences);
+  _gsap.gsap.registerPlugin(_gsapScrollTrigger.ScrollTrigger);
 });
 
 },{"gsap":"1iecp","gsap/ScrollTrigger":"5s7rm"}],"1iecp":[function(require,module,exports) {

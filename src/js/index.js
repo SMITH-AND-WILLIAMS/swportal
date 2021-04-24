@@ -6,11 +6,11 @@ const $$ = document.querySelectorAll.bind(document);
 /*---*/
 window.addEventListener("DOMContentLoaded", (e) => {
     gsap.registerPlugin(ScrollTrigger);
-    const bg = $(`.background`);
     const header = $(`header`);
     const noise = document.createElement(`div`);
     const turbulences=document.createElementNS(`http://www.w3.org/2000/svg`,`svg`);
     const sea=document.createElement(`div`);
+    const lh=document.createElement(`div`);
     const lhReflect=document.createElement(`div`);
     turbulences.innerHTML=`
     <filter id="turbulence" x="0" y="0" width="100%" height="100%">
@@ -19,22 +19,18 @@ window.addEventListener("DOMContentLoaded", (e) => {
       <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="300s" 
       keyTimes="0;0.5;1" values="0.002 0.006;0.004 0.08;0.002 0.006" repeatCount="indefinite"/>    
     </filter>`;
-    sea.classList.add(`sea`);
+    sea.classList.add(`sea`);    
+    lh.classList.add(`lh`);    
     lhReflect.classList.add(`lightHouseReflection`);
-    header.append(sea,lhReflect,turbulences);
+    lh.append(lhReflect);
+    header.append(sea,lh,turbulences);
 
 
 
-    // function calm(e) {
-    //     bg.classList.add(".noise")
-    //     bg.style.setProperty('--x', e.x - 120 + "px");
-    //     bg.style.setProperty('--y', e.y - 120 + "px");
-    // }
-    // noise.classList.add("noise");
-    // bg.appendChild(noise);
 
-    // window.addEventListener("pointermove", calm);
-    // gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
+  
+   
     // gsap.to(".cloud1", {
     //     scrollTrigger: {
     //         trigger: "header",
