@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "parcel": "^2.0.0-beta.2",
-    "postcss": "^8.2.8"
+    "postcss": "^8.2.10"
   },
   "dependencies": {
     "gsap": "npm:@gsap/shockingly@^3.6.0"
